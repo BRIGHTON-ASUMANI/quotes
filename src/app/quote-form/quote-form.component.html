@@ -1,0 +1,31 @@
+
+<div class="everything">
+  <form (ngSubmit)='submitQuote()' #quoteForm='ngForm'>
+    <!-- Name Form -->
+
+    <label for="name" style="font-size:40px;">Name</label>
+    <input type="text"  class="form-control" id="name" [(ngModel)]="newQuote.name" name="name" #name="ngModel" required>
+
+
+
+    <label for="name" style="font-size:40px;">Author</label>
+    <input type="text"  class="form-control" id="author" [(ngModel)]="newQuote.author" name="author" #name="ngModel" required>
+
+
+    <!-- Description Input -->
+
+    <label for="description" style="font-size:40px;">quote</label>
+    <textarea class="form-control" id="description" rows="4" [(ngModel)]="newQuote.description" name="description" #description="ngModel" required></textarea>
+
+
+
+    <!-- Date Input -->
+
+    <label for="complete" style="font-size:40px;">Completion</label>
+    <input type='date' id="complete" [(ngModel)]="newQuote.completeDate" name="completeDate" #completeDate="ngModel" required >
+
+<div style="margin-bottom:15px;">
+    <button type="Submit" class="btn btn-success btn-lg">submit</button>
+  </div>
+  </form>
+</div>
