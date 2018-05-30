@@ -5,12 +5,12 @@
 <div class="container">
     <div class="row" *ngFor="let quote of quotes;let i = 'index'">
         <div class="row" style="margin-left:10px;">
-            <h4 id="{{i}}" appStrikethrough >Submitted by {{quote.name}} on {{quote.completeDate|date|uppercase}} &nbsp; &nbsp;</h4>
+            <h4 id="{{i}}" appStrikethrough >Submitted by <code>{{quote.name}}</code> on <button class="btn btn-success">{{quote.completeDate|date|uppercase}}</button> &nbsp; &nbsp;</h4>
             <br />
 
         </div>
         <div>
-          <button class="btn btn-primary" (click)='toogleDetails(i)'  style="margin-bottom:50px;margin-right:50px;">show quote</button>
+          <button class="btn btn-primary" (click)='toogleDetails(i)'  style="margin-bottom:50px;margin-right:40px;">show quote</button>
            <img src="assets/bir.gif" align="center" class="img-circle"  align="center" width="80px" height="80px">
         </div>
           <br />
