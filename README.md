@@ -1,4 +1,4 @@
-## PROJECT: Quote application
+## PROJECT: Quote
 
 ## CREATED BY : BRIGHTON ASUMANI
 
