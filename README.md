@@ -15,6 +15,7 @@ once all the above details are inserted. click on the submit button and a detail
 link to github pages https://brighton-asumani.github.io/quotes/
 
 
+
 ## LICENSE
 MIT License
 
