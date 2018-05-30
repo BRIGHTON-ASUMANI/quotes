@@ -12,4 +12,4 @@ once all the above details are inserted. click on the submit button and a detail
 
 ## install
  git clone https://github.com/BRIGHTON-ASUMANI/quotes or clone and download from github
-link to github pages https://brighton-asumani.github.io/quotes/
+link to github pages https://brighton-asumani.github.io/quotes/ 
