@@ -1,26 +1,16 @@
-# Quote
+# Quote Application
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.3.
+## CREATED BY : BRIGHTON ASUMANI
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## PROJECT: Quote application
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## DESCRIPTION:
+This is a simple application that records a users quote, the author's name and the name of user.
+once all the above details are inserted. click on the submit button and a detailed report will be generated from what you had input. click on the show quote button to view more details..... a downvote, upvote and a delete button. click on the upvote if you want to add and downvote if not, click on the delete button if you want to delete quote(an alert dialogue box will appear to confirm if you want to delete )
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
 ## Further help
 
