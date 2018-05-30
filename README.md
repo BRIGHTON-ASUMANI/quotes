@@ -14,6 +14,7 @@ once all the above details are inserted. click on the submit button and a detail
  git clone https://github.com/BRIGHTON-ASUMANI/quotes or clone and download from github
 link to github pages https://brighton-asumani.github.io/quotes/
 
+
 ## LICENSE
 MIT License
 
